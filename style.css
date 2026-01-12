@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 50px;
+    background-color: maroon;
+    color: black;
+}
+
+table {
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid lightgray
+}
+
+caption {
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+thead {
+    color: white;
+    background-color: dodgerblue;
+}
+
+th, td {
+    padding: 10px 15px;
+}
+
+.whitesmok {
+    background-color: whitesmoke;
+}
+
+tbody tr:hover {
+    background-color: lightyellow;
+    cursor: pointer;
+}
+
+tfoot {
+    background-color: black;
+    color: white;
+}
